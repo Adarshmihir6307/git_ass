@@ -1,7 +1,7 @@
 function Palindrome(N,str){
      let rev=""
-     for(i=N-1;i>=0;i--){
-       rev=rev+str
+     for(let i=N-1;i>=0;i--){
+       rev=rev+str[i]
  } 
 }
   if(rev==str){
